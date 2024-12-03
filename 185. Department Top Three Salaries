@@ -1,0 +1,16 @@
+SELECT Department,
+        Employee,
+        Salary
+FROM(
+    SELECT
+        D.name AS Department,
+        E.name AS Employee,
+        E.salary,
+        Dense_Rank() OVER 
+            (PARTITION BY D.name ORDER BY E.Salary Desc) 
+            AS D_R
+    FROM Employee E
+    JOIN Department D
+    ON E.departmentId = D.id) AS Join_Table
+WHERE D_R < 4
+ORder BY Department;
