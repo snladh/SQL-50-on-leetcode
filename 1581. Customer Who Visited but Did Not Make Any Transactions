@@ -3,3 +3,6 @@ FROM Visits AS A
 LEFT JOIN Transactions AS B
 ON A.visit_id = B.visit_id WHERE B.visit_id IS NULL
 GROUP BY A.customer_id;
+
+
+Google '1581. Customer Who Visited but Did Not Make Any Transactions' to find the problem.
