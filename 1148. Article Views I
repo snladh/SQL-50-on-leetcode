@@ -2,3 +2,6 @@ SELECT DISTINCT author_id as id
 FROM Views
 WHERE author_id = viewer_id
 ORDER BY id;
+
+-- Run this query in SQL with Views table correctly defined to make it run.
+-- Or you can just google 1148. Article Views I in google and find the corresponding problem.
