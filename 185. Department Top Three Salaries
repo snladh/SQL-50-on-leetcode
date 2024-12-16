@@ -14,3 +14,5 @@ FROM(
     ON E.departmentId = D.id) AS Join_Table
 WHERE D_R < 4
 ORder BY Department;
+
+To find the tables for this problem, google "185. Department Top Three Salaries" or search for the problem in LeetCode.
