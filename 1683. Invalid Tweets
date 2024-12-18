@@ -1,3 +1,5 @@
 SELECT tweet_id
 FROM Tweets
 WHERE LENGTH(content)>15;
+
+# To access the problem, google "1683. Invalid Tweets" or go to leetcode for the table and problem.
