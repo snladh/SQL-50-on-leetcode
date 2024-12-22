@@ -3,3 +3,5 @@ FROM Cinema
 WHERE id%2 != 0
 AND description != "boring"
 ORDER BY rating desc;
+
+# to access the problem, please google 620. Not Boring Movies or go to leetcode to find the table and the problem.
