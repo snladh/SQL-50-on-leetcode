@@ -3,3 +3,5 @@ FROM Signups S
 LEFT JOIN Confirmations C
 ON S.user_id = C.user_id
 GROUP BY S.user_id;
+
+# To find the problem or the table, please google "1934. Confirmation Rate".
