@@ -5,3 +5,4 @@ ON S.user_id = C.user_id
 GROUP BY S.user_id;
 
 # To find the problem or the table, please google "1934. Confirmation Rate".
+# The problem can also be found in the leetcode.
